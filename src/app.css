@@ -1,0 +1,63 @@
+.body-screen {
+    height: 100vh - 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.content h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.table-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100% - 50px;
+    margin-bottom: 10px
+}
+
+.table thead {
+    background-color: rgb(255, 204, 0);
+}
+
+.table tr td {
+    border: 1px solid;
+    text-align: center;
+    padding: 8px;
+}
+
+.table thead td {
+    font-weight: bold;
+}
+
+.buttom-btn {
+    margin-right: 5px;
+    background: white;
+    border: 1px solid gray;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.buttom-btn:hover {
+    background: rgb(210, 207, 207);
+}
