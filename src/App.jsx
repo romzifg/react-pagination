@@ -17,7 +17,7 @@ const App = () => {
   }, []);
 
   const onClickAddOne = () => {
-    if (inititalPage >= 5) {
+    if (inititalPage >= 5 && inititalPage !== listData.length) {
       setInitialPage(inititalPage + 1);
     }
   };
@@ -29,7 +29,10 @@ const App = () => {
   };
 
   const onClickNext = () => {
-    if (inititalPage <= employeeData.length) {
+    if (
+      inititalPage <= employeeData.length &&
+      inititalPage !== listData.length
+    ) {
       setInitialPage(inititalPage + 5);
     }
   };
